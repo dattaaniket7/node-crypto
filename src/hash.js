@@ -17,5 +17,6 @@ console.log(hash1);
 password = 'hello-world!';
 const hash2 = hash(password);
 console.log(hash2);
+const match = hash1 === hash2;
 
 console.log(match ? '✔️  good password' : '❌  password does not match');

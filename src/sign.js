@@ -1,7 +1,7 @@
 const { createSign, createVerify } = require('crypto');
 const { publicKey, privateKey } = require('./keypair');
 
-const message = 'hello world!';
+const message = 'i am bond, james bond!';
 
 /// SIGN
 

@@ -1,7 +1,7 @@
 const { publicEncrypt, privateDecrypt } = require('crypto');
 const { publicKey, privateKey } = require('./keypair');
 
-const message = 'hello world!';
+const message = 'i am bond, james bond';
 
 const encryptedData = publicEncrypt(publicKey, Buffer.from(message));
 

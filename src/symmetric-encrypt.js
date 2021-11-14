@@ -2,7 +2,7 @@ const { createCipheriv, randomBytes, createDecipheriv } = require('crypto');
 
 /// Cipher
 
-const message = 'i like turtles';
+const message = 'i am bond, james bond! 007';
 const key = randomBytes(32);
 const iv = randomBytes(16);
 

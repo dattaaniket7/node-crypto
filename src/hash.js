@@ -14,7 +14,7 @@ console.log(hash1);
 
 /// ... some time later
 
-password = 'hello-world!';
+password = 'i am bond, james bond! 007';
 const hash2 = hash(password);
 console.log(hash2);
 const match = hash1 === hash2;
